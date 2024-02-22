@@ -63,7 +63,7 @@ string KnnAlgorithm::findMostCommonString() {
         }
         if (mostCommonStringRepeat < repeats) {
             mostCommonString = definition;
-            mostCommonStringRepeat = mostCommonStringRepeat;
+            mostCommonStringRepeat = repeats;
         }
     }
     return mostCommonString;
